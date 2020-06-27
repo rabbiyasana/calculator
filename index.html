@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="main" style="margin: auto;">
+  <table >
+    <tr>
+      <td>
+      <input type="text" name="" id="sol">
+     </td>
+    </tr>
+    <tr>
+      <td>
+       <button class="clear" onclick="clearres()">c</button>
+       <button class="rad ope"onclick="solution('/')" >/</button>
+      </td>
+     
+    </tr>
+    <tr>
+      <td>
+      <button class="rad" onclick="solution('7')">7</button>
+      <button class="rad" onclick="solution('8')">8</button>
+      <button class="rad" onclick="solution('9')">9</button>
+      <button class="rad ope" onclick="solution('*')">x</button>
+     </td>
+    </tr>
+    <tr>
+      <td>
+      <button class="rad" onclick="solution('4')">4</button>
+      <button class="rad" onclick="solution('5')">5</button>
+      <button class="rad" onclick="solution('6')">6</button>
+      <button class="rad ope" onclick="solution('-')">-</button>
+     </td>
+    </tr>
+    <tr>
+      <td>
+     <button class="rad" onclick="solution('1')">1</button>
+     <button class="rad" onclick="solution('2')">2</button>
+     <button class="rad" onclick="solution('3')">3</button>
+     <button class="rad ope" onclick="solution('+')">+</button>
+     </td>
+   </tr>
+  <tr>
+    <td>
+    <button class="zero" onclick="solution('0')">0</button>
+    <button class="rad" onclick="solution('.')">.</button>
+    <button class="rad ope" onclick="getr()">=</button>
+    </td>
+  </tr>
+    
+  </table>
+ </div>
+</body>
+<script src="app.js"></script>
+</html>
